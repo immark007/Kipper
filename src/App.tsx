@@ -1,10 +1,11 @@
 import './App.css'
+import Navbar from './assets/components/Navbar'
 
 function App() {
 
   return (
     <div>
-      <h1 className='text-2xl text-white'>Olá mundo</h1>
+      <Navbar></Navbar>
     </div>
   )
 }
